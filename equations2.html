@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+  <style>
+        .appicon01
+        {
+            background: url(../img/appicon/01.png);
+        }
+        .appicon02
+        {
+            background: url(../img/appicon/02.png);
+        }
+        .appicon03
+        {
+            background: url(../img/appicon/03.png);
+        }
+        .appicon01, .appicon02, .appicon03
+        {
+        	display: block;
+            position: absolute;
+            width: 160px;
+            height: 150px;
+        }
+        .appicon01:hover, .appicon02:hover, .appicon03:hover
+        {
+            text-decoration: none;
+        }
+        .appiconcb
+        {
+            position: absolute;
+            left: 0px;
+            bottom: 10px;
+            width: 160px;
+            height: 25px;
+        }
+        .appiconc
+        {
+            position: absolute;
+            left: 0px;
+            bottom: 10px;
+        	text-align: center;
+            width: 160px;
+            height: 25px;
+            line-height:25px;
+            font-family: Verdana, Arial;
+        	color: #fff;
+        	font-size:14px;
+        	text-decoration:none;
+        }
+        .appicon01:hover .appiconcb, .appicon02:hover .appiconcb, .appicon03:hover .appiconcb
+        {
+            background-color: #fff;
+            filter: alpha(opacity=30);
+            opacity: .3;
+        }
+        .appicon01:hover .appiconc, .appicon02:hover .appiconc, .appicon03:hover .appiconc
+        {
+        	color: #000;
+        }
+    </style>
+  
+  
+  </head>
+  <body>
+<div class="container">
+	<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Projectile Motion App</a>
+    </div>
+
+   <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        
+        <li><a href="about.html">About</a></li>
+		<li><a href="references.html">References</a></li>
+		
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Next Page</a></li>
+            <li><a href="equations.html">Previous Page</a></li>
+            <li class="divider"></li>
+            <li><a href="http://www.sci.brooklyn.cuny.edu/~goetz/cisc3630/">Multimedia Computing Site</a></li>
+            <li class="divider"></li>
+            <li><a href="https://www.bing.com">Bing to learn more about motion</a></li>
+          </ul>
+        </li>
+      </ul>
+     
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	<!--<button type="button" class="btn btn-info btn-block">Block-level Button</button>-->
+	
+	
+	<h1>Equations</h1>
+	<p>Page with buttons to all the equations...list all the equations on the bottom and link them from the buttons on top!.
+
+	<img src ="images/components.png" width="520" height="380"> 
+	<br></br>
+	The x component of the velocity for a projectile motion does not change because as the object moves through space there are no forces
+	that act on the object in the horizontal direction (assuming there is no friction such as wind resistance). Using the above equations
+	one can calculate the initial x and y components of the velocity. Which means the velocity of the projectile the moment it is launched.
+	
+	<br></br>
+	<img src ="images/projectile_velocity.png" width="520" height="380">
+	<br></br>
+	During its flight, the object's components of velocity can be calculated using the above two equations. Notice the Vx, or the x
+	component of the velocity doesn't change anywhere during the flight as mentioned before. Since there are no external forces applied
+	the velocity in the x direction will not change. However, the only external force that is applied to an object in projectile motion is 
+	gravity! Gravity will tend to pull the object downwards. So the term that is included in the equation tells us how much gravity changes
+	the y component of the velocity throughout the flight.
+	
+	<br></br>
+	<img src ="images/projectile_velocity.png" width="520" height="380">
+	<br></br>
+	
+	The displacement of an object can be determined at any given time of the flight by using the equations given above. Here
+	V0 is the initial velocity of the object, or the launching velocity. T is the time of interest, for instance where will the projectile
+	be after 10 secs. G is the constant used for gravity, the value of g is 9.81 m/s^2 or 32.2 ft/s^2. Theta is the launch angle. 
+	<br></br>
+	
+	<img src ="images/t_time_max_height.png" width="520" height="380">
+	<br></br>
+	
+	If you were interested in calculating the total time of flight for a projectile or the maximum height the object will reach, you can
+	use the above equations. The derivation of these equations are not included in this presentation. But, if you are interested note that
+	these equations were derived from the previously presented equations. 
+	
+	<br></br>
+	<img src ="images/range.png" width="520" height="380">
+	<br></br>
+</p>
+Finally the maximum distance the projectile travels or the range it travels can be obtained by using the equation above. Once, again
+this equation was derived from the previous equations that were introduced. 
+	
+<br></br>	
+	
+	<!--<button type="button" class="btn btn-primary">Start</button>-->
+	<a href="index.html" class="btn btn-primary">Home</a>
+	<a href="quizpage.html" class="btn btn-primary">Take Quiz</a>
+	<!--<a href="8thpage.html" class="btn btn-primary">Next</a>-->
+	<a href="equations.html" class="btn btn-primary">Back</a>
+	<br></br>
+	</div>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	
+        </div>
+     
+       
+	
+	
+	
+  </body>
+</html>
